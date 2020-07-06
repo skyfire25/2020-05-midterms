@@ -22,24 +22,30 @@ return true
 }
 }
 
-function makeHalfSquares(num1){
+function makeHalfSquares(num1, num2){
   let halve = []
   for(let i= 0; i < num1.length; i++){
 if (halve[i] === num1.length){
-  }else if(){
+  }else if(halve[i] === num2.length){
 
   }
 
-  }
+  
 
 
     function countAs(grade){
+let grade = []
 for(let i = 0; i < grade.length; i++){
+if(grade[i] === grade[i] <= 90){
 
+}else{
+return grade
 }
-    }
+}
+  
 
-  }
+
+
     function deleteMiddleLetters(){
 
     }
@@ -51,7 +57,6 @@ for(let i = 0; i < grade.length; i++){
     function hyphenateName(){
 
     }
-
 
 if (typeof capitalizeSentences === 'undefined') {
   capitalizeSentences = undefined;
